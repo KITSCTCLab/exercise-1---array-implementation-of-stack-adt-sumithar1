@@ -18,11 +18,11 @@ class Stack:
 
     def pop(self):
         if not self.is_empty():
-            removed_element = self.items.pop()
+           self.removed_element = self.items.pop()
 
     def status(self):
         # Write code here
-        for numbers in self.items():
+        for numbers in self.items:
             print(numbers)
 
 # Do not change the following code
